@@ -1,0 +1,27 @@
+{
+  "name": "connect4",
+  "version": "1.0.0",
+  "description": "A connect four clone written in node",
+  "main": "logic.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WheatleyTheCoder/connect4.git"
+  },
+  "keywords": [],
+  "author": "WheatleyTheCoder <slendermanwithaface@gmail.com> (http://project2.neocities.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WheatleyTheCoder/connect4/issues"
+  },
+  "homepage": "https://github.com/WheatleyTheCoder/connect4#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.2.0"
+  }
+}
