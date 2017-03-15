@@ -1,6 +1,6 @@
 var expect = require('chai').expect;
 
-var Board = require('../board');
+var Board = require('../lib/board');
 
 describe('Game Board', function() {
 	it('should be 7 counters across', function() {
