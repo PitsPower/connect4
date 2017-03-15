@@ -9,6 +9,7 @@ deploy:
       CzLk7WMjQ686tdBUV6QNB/7Hn0oxuA7h/Qo2FcnZV+HfM7BKDv9XG8qrlPfvo1K6Ry8mIHcTU5eKQgewhIsMnMmrKJCDZirxbcRO7lHZMMrC5S0ci+FYuen+YUbhN2umjmFlvdShy7RKKjBB1qN2wzCl8r5pWsJJ7AiFP3BoCxlprdl9X3fmoganTzuhJNgTeIc4QGuyM6DR8XiacGhtp98x9QWqX4eUwDmtE2ihuDwOCoyKpVzl7ENrgCl5wR6QZqpRj3VOdjR0yWCi81dJXFNiaL8vL3ajuYybT+oa0XEdDNwXbnbc7fF2KTpnAt/lW6Gg5nwnMVOn4dH82E6tHmuO2wNji5De9qdEWxgYnreBvomm3Jt8PDHa7anq39Qb2sKs0EB9p1WutUKZe8PZewoIcoiKD/yYDTXUUlNWSpUdk3GwVoUggI84W94XI+e1vPcHaDefdLjvDnGzhH1p/zgi1UUaWEj8LbZx/KbpSoft4jL9sTQPT+q1DpkCBNXJPRh2rDrh57ysl724fLm66l6XPAz3Qac9E9Hx4hH2K0ZGF6KT8hf/LMPDaYxTmilokDhDI5a8QLo/1OBnrog1H2uKsONzisqTSZADbDaqJ+100q4P9TV/jgPO25U+fijXZu4+fUE/1LGfk+377kMqO+EGbnzuhT6PzS/ggYiFQf4=
   domain: palutena
   on: release
+  deployment_branch: release
   skip_cleanup: true
 after_success:
   - git config --global user.email "travis@localhost.localdomain"
