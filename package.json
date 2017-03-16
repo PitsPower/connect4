@@ -2,7 +2,7 @@
   "name": "connect4",
   "version": "1.0.0",
   "description": "A connect four clone written in node",
-  "main": "logic.js",
+  "main": "server.js",
   "directories": {
     "test": "test"
   },
